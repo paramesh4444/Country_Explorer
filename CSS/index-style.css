@@ -1,0 +1,140 @@
+/* Property for hole webpage */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Property for the html and body tag */
+html,
+body {
+    font-family: 'Lato', 'Arail', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+
+
+/* Property for header tag and background */
+header {
+    background-image: url("IMAGE/FinalWorld.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 1950vh;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Property for heading(Country Explorer) */
+h1 {
+    color: #fff;
+    font-size: 270%;
+    word-spacing: 7px;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 70px;
+    left: 400px;
+}
+
+/* Common property for search box(Country Serach) and button(Go to) */
+#box, #btn {
+    position: absolute;
+    top: 24%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Property for search box(Country Serach) */
+#box
+{
+    margin-top: 5px;
+    width: 330px;
+    height: 50px;
+    font-size: 20px;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 15px 50px;
+    outline: none !important;
+}
+
+/* Property for button(Go to) */
+#btn {
+    background-color: black;
+    color: white;
+    margin-top: 65px;
+    width: 95px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 300px;
+    padding-top: 7px;
+    text-decoration: none;
+    border-radius: 15px 50px 30px 5px;
+}
+
+/* Property for when the cursor on the button */
+#btn:hover {
+    background-color: white;
+    color: black;
+    border-bottom-style: none;
+}
+
+/* Property for when we click the button */
+#btn:active {
+    background-color: blue;
+    color: white;
+}
+
+/* Property for table(Country name and Flag) */
+#mytable {
+    border-collapse: collapse;
+    width: 60%;
+    position: absolute;
+    top: 40%;
+    left: 21%;
+    bottom: 10px;
+    text-align: center;
+}
+
+/* Common property for table heading and table columns */
+#mytable td, #mytable th {
+    border: 1px solid black;
+    padding: 3px;
+}
+
+/* Property for table row */
+#mytable tr {
+    background-color: #f2f2f2;
+}
+
+/* Property for table heading  */
+#mytable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 25px;
+}
+
+/* Property for table columns link */
+#mytable td a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* Property for when cursor is on the link */
+#mytable td a:hover {
+    text-decoration: none;
+    color: #000;
+    border-width: 2px;  
+    border-bottom-style:dashed;
+}
+
+/* Property for table columns img */
+#mytable td img {
+    margin: 5px 0px 5px 30px;
+}

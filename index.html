@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="CSS/index-style.css">
+        <link href="http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic" rel="stylesheet" type="text/css">
+        <title>Country_Explorer</title>
+        
+    </head>
+    
+    <!--  restore function is used to when relaod the page restore the data  -->
+    <body onload="restore_page();">
+        
+        <header>
+            <div>
+                <h1>COUNTRY EXPLORER</h1>
+                <input id="box" type="text" placeholder="Country Name..." onkeypress="return keyHandler(event);">
+                <button id="btn">Go to</button>
+            </div>
+            <div>
+                <table width="600" id="mytable">
+                  <tr id="tableHeader">
+                  </tr>
+                </table>
+            </div>
+        </header>
+        
+    </body>
+    
+    <script src="JS/index-JS.js"></script>
+    
+</html>

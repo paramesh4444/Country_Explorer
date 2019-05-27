@@ -1,0 +1,95 @@
+/* Property for hole webpage */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Property for the html and body tag */
+html,
+body {
+    font-family: 'Lato', 'Arail', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+/* Property for header tag and background */
+header {
+    background-image: url("IMAGE/FinalWorld.jpg");
+    height: 220vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Common poperty for table(Country details), heading(Flag name), button(Back to previous page)  */
+#detailtable, h1, a {
+    position: absolute;
+    
+}
+
+/* Property for heading(Flag name) */
+h1 {
+    color: white;
+    font-size: 180%;
+    word-spacing: 7px;
+    letter-spacing: 1px;
+    margin-top: 95px;
+    margin-left: 240px;
+}
+
+/* Property for button(Back to previous page) */
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    background-color: #000;
+    padding: 6px 20px 10px 20px;
+    border-radius: 200px;
+    margin-top: 27px;
+    margin-left: 25px;  
+}
+
+/* Property for when the cursor on the button(Back to previous page) */
+a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Property for the table(Country details) */
+#detailtable {
+    border-collapse: collapse;
+    width: 60%;
+    margin-top: 160px;
+    margin-left: 250px;
+}
+
+/* Common property for table(Country details) heading and columns */
+#detailtable td, #detailtable th {
+      border: 1px solid black;
+      padding: 8px;
+}
+
+/* Property for table(Country details) rows */
+#detailtable tr {
+      background-color: #f2f2f2;
+}
+
+/* Property for table(Country details) heading */
+#detailtable th {
+    padding: 12px 5px 12px 5px;
+    font-size: 22px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Property for table(Country details) columns */
+#detailtable td {
+    font-size: 20px;
+    font-weight: 400;
+}
